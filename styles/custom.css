@@ -1,0 +1,91 @@
+@font-face {
+    font-family: helveticaAvenue;
+    src: url(/assets/fonts/helvetica-avenue/HelveticaNeue.ttf);
+}
+
+@font-face {
+    font-family: helveticaAvenueMedium;
+    src: url(/assets/fonts/helvetica-avenue/HelveticaNeue\ Medium.ttf);
+}
+
+body {
+    font-family: helveticaAvenue;
+    color: #FFF
+}
+
+.video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo {
+    font-family: helveticaAvenueMedium;
+    color: #FFF;
+}
+
+.main-content {
+    margin-top: 30px;
+}
+
+.custom-button {
+    font-family: helveticaAvenueMedium;
+}
+
+.shrink-content {
+    width: 70%;
+}
+
+.centered {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+.feed-button {
+    font-family: helveticaAvenueMedium;
+}
+
+.form-inline {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      margin-bottom: 30px
+    }
+
+    .shrink-content {
+        width: 100%;
+    }
+
+    .custom-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .centered h1, .centered h3 {
+        font-family: helveticaAvenueMedium;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .title {
+        font-family: helveticaAvenueMedium;
+        font-size: 25px;
+    }
+
+    .row {
+        margin-bottom: 0;
+    }
+
+    .feed-button {
+        margin-top: -40px;
+    }
+}
